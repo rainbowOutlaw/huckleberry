@@ -10,3 +10,31 @@ body {
 }
 
 /* Add styles here! */
+
+h1{
+  font-size: 2rem;
+}
+
+h2{
+  font-size: 1.5rem;
+  display: inline-block;
+  background-color: hsl(45deg, 100%, 50%);
+}
+
+p{
+  margin: 16px 0;
+  font-size: 1rem;
+}
+
+.max-width-wrapper{
+  margin-left: 264px;
+  margin-top: 96px;
+}
+
+.title{
+  margin-bottom: 48px;
+}
+
+.card{
+  max-width: 800px;
+}
