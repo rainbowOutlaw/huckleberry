@@ -19,6 +19,9 @@ h2{
   font-size: 1.5rem;
   display: inline-block;
   background-color: hsl(45deg, 100%, 50%);
+  padding: 16px 32px;
+  margin-left: -30px;
+  margin-top: -16px;
 }
 
 p{
@@ -26,15 +29,29 @@ p{
   font-size: 1rem;
 }
 
+main{
+  background-color: hsl(0deg, 0%, 10%);
+}
+
 .max-width-wrapper{
-  margin-left: 264px;
-  margin-top: 96px;
+  /* margin-left: 264px; */
+  padding: 96px 0;
 }
 
 .title{
   margin-bottom: 48px;
 }
 
-.card{
+.intro-chunk{
   max-width: 800px;
+  padding: 0 24px;
+  margin: auto;
+}
+
+.card{
+  padding: 0 24px;
+  max-width: 800px;
+  height: 312px;
+  margin: auto;
+  background-color: aqua;
 }
