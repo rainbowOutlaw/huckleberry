@@ -29,8 +29,12 @@ p{
   font-size: 1rem;
 }
 
+strong{
+  color: hsl(160deg, 100%, 30%);
+}
+
 main{
-  background-color: hsl(0deg, 0%, 10%);
+  background-color: hsl(0deg, 0%, 40%);
 }
 
 .max-width-wrapper{
@@ -44,7 +48,8 @@ main{
 
 .intro-chunk{
   max-width: 800px;
-  padding: 0 24px;
+  padding-left: 24px;
+  padding-right: 300px;
   margin: auto;
 }
 
@@ -53,5 +58,5 @@ main{
   max-width: 800px;
   height: 312px;
   margin: auto;
-  background-color: aqua;
+  background-color: hsl(0deg, 0%, 100%)
 }
